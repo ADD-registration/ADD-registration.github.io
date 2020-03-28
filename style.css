@@ -4,15 +4,22 @@
   font-weight: 800;
 }
 .navContent {
-  padding: 0 7rem;
+  /* padding: 0 7rem; */
 }
 .table1 {
   margin: 1rem 30rem 0rem 30rem;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 @media only screen and (max-width: 1024px) {
+
   .sparkLogo{
     text-align: center;
+
+  }
+  .sparkLogo1{
+
+    width:30%;
+
   }
   .headingWebinar{
     font-weight: 600 !important;
@@ -56,11 +63,15 @@
 }
 .text-subheading {
   font-size: 1.5rem;
+  text-align: center;
   font-weight: 600;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 .tableHeading {
   margin-top: 1rem;
@@ -98,12 +109,40 @@ body {
 }
 .procedure{
   text-align: left;
-  padding:0 3vw;
+  padding:0 7vw;
 }
 .redColour{
-  background-color: #ff0000;
+  /* background-color: #ff0000;
+   */
+   background-color: white;
+   color:black; 
 }
 .logo2{
   margin-top: 5px;
-  width:15%;
+  width:12%;
+}
+.navButtons{
+  color: black;
+}
+.redColour1{
+  background-color: #ff0000;
+  
+  
+}
+
+
+.section1 {
+  flex: 1 0 auto;
+}
+.textC{
+  text-align: center;
+  font-weight: 600;
+}
+.sparkLogo1{
+  width:20%;
+
+}
+.text{
+  text-align: center;
+  martop:10px;
 }
