@@ -118,8 +118,9 @@ body {
    color:black; 
 }
 .logo2{
-  margin-top: 5px;
+  margin-top: 8px;
   width:12%;
+  /* overflow: hidden; */
 }
 .navButtons{
   color: black;
@@ -129,7 +130,9 @@ body {
   
   
 }
-
+.redColour1:hover{
+  background-color: #b90000;
+}
 
 .section1 {
   flex: 1 0 auto;
