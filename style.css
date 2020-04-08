@@ -151,3 +151,10 @@ body {
 .schedule{
   margin-top:20px
 }
+.disabled{
+  z-index: 20;
+  background-color: rgba(0, 0, 0,0.26);
+}
+.slotStatus{
+  font-weight: 600;
+}
