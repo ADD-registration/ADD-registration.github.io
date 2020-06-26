@@ -1,1 +1,1 @@
-https://www.adobedigitaldisha.github.io
+www.adobedigitaldisha.github.io
